@@ -43,7 +43,7 @@ public class GoogleStockTest {
 		
 		value = element.getText();
 		System.out.println("Valueof prev close : "+value);
-		Assert.assertEquals("Prev close $137.96", value); 
+		Assert.assertEquals("Prev close $137.96", value);
 		
 	}
 }
