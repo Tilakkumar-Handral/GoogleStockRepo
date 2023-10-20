@@ -10,6 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class GoogleStockTest {
 
 	WebDriver driver;
@@ -44,6 +46,6 @@ public class GoogleStockTest {
 		value = element.getText();
 		System.out.println("Valueof prev close : "+value);
 		Assert.assertEquals("Prev close $137.75", value);
-		
+		System.out.println("This run is from git push");
 	}
 }
