@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.googlestock.prevstock.GoogleStockTest"/> 
+      <class name="org.googlestock.prevstock.GoogleStockTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
