@@ -46,6 +46,6 @@ public class GoogleStockTest {
 		value = element.getText();
 		System.out.println("Valueof prev close : "+value);
 		Assert.assertEquals("Prev close $137.75", value);
-		//System.out.println("This run is from git push from local to master.");
+		System.out.println("This run is from git push from local to master.");
 	}
 }
